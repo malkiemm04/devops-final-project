@@ -1,0 +1,14 @@
+{
+  "name": "cloud-notes-app",
+  "version": "1.0.0",
+  "description": "Cloud-backed Notes application with CRUD operations",
+  "scripts": {
+    "dev": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "deploy": "npm run build && terraform apply"
+  },
+  "keywords": ["cloud", "serverless", "aws", "react"],
+  "author": "",
+  "license": "MIT"
+}
+

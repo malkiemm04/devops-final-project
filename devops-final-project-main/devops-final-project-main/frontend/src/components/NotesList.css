@@ -1,0 +1,88 @@
+.notes-list h3 {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.notes-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.note-item {
+  padding: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #f9f9f9;
+}
+
+.note-item:hover {
+  border-color: #667eea;
+  background: #f0f0ff;
+  transform: translateX(5px);
+}
+
+.note-item.active {
+  border-color: #667eea;
+  background: #e8eaff;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+}
+
+.note-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 0.5rem;
+}
+
+.note-item-header h4 {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+  flex: 1;
+  word-break: break-word;
+}
+
+.note-item-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.25rem;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.btn-icon:hover {
+  opacity: 1;
+}
+
+.note-item-preview {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.5rem 0;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.note-item-meta {
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 0.5rem;
+}
+
+.notes-list-empty {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #999;
+}
+

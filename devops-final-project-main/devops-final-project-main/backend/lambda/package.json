@@ -1,0 +1,10 @@
+{
+  "name": "notes-lambda-functions",
+  "version": "1.0.0",
+  "description": "Lambda functions for Notes API",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.1499.0"
+  }
+}
+
